@@ -1,18 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
 body{
-  font-family: 'JetBrains Mono';
+  /*font-family: 'JetBrains Mono';*/
+  font-family: 'Nunito';
 }
 
 /*----------------------------*/
+.chapter_diretory{
+  margin-left: 25px;
+  background-color: bisque;
+}
+
+.chapter_header{
+  padding: 15px;
+  margin-bottom: 15px;
+  background-color: #ffe4c4;
+}
+
+.chapter_button{
+  color:#fff;
+  border-radius: 10px;
+
+  width: 60px;
+  margin-left: 20px;
+  margin-bottom: 12px;
+  padding: 5px 0;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+  background: #ff7f50;
+}
+
+.chapter_button:hover{
+  background: #ffad90;
+}
+
+.chapter_content_header{
+  font-size: 40px;
+}
+
+.chapter_content{
+  background-color: coral;
+}
+
 .content{
   background-color: cornflowerblue;
   padding: 15px;
 }
 
 .content_button{
-  background-color: coral;
+  background-color: #ff7f50;
   border: none;
   border-radius: 10px;
-  color: white;
+  color: #fff;
   padding: 15px 32px;
   margin-left: 30px;
   text-align: center;
@@ -22,7 +64,7 @@ body{
 }
 
 .content_button:hover{
-  background-color: rgb(255, 173, 144);
+  background-color: #ffad90;
 }
 
 .header{
