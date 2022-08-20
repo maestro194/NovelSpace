@@ -8,7 +8,7 @@ body{
 /*----------------------------*/
 .chapter_diretory{
   margin-left: 25px;
-  background-color: bisque;
+  background-color: #ffe4c4;
 }
 
 .chapter_header{
@@ -39,10 +39,17 @@ body{
 
 .chapter_content_header{
   font-size: 40px;
+  padding: 30px;
+}
+
+.chapter_content_wordcount{
+  font-size: 25px;
+  padding: 25px;
 }
 
 .chapter_content{
-  background-color: coral;
+  padding-top: 15px;
+  padding-left: 15px;
 }
 
 .content{
