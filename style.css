@@ -1,8 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito');
+@font-face {
+  font-family: 'Source Serif Pro';
+  src: url(fonts/source-serif-pro.bold.ttf) format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Source Serif Pro';
+  src: url(fonts/source-serif-pro.regular.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
 body{
-  /*font-family: 'JetBrains Mono';*/
-  font-family: 'Nunito';
+  font-family: 'Source Serif Pro', 'Nunito';
 }
 
 /*----------------------------*/
